@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olizia.Libraries.DesignPatterns.Notification.Abstractions", "Olizia.Libraries.DesignPatterns.Notification.Abstractions\Olizia.Libraries.DesignPatterns.Notification.Abstractions.csproj", "{DB6F1D8B-6D40-4821-97A4-9B0D4527F811}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45840834-3E94-452E-B384-2FC12E82ED18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olizia.Notification.Abstractions.Tests", "Olizia.Notification.Abstractions.Tests\Olizia.Notification.Abstractions.Tests.csproj", "{98CE72F0-3F1C-40DA-8FF3-D6ED626E09CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{DB6F1D8B-6D40-4821-97A4-9B0D4527F811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6F1D8B-6D40-4821-97A4-9B0D4527F811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6F1D8B-6D40-4821-97A4-9B0D4527F811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CE72F0-3F1C-40DA-8FF3-D6ED626E09CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CE72F0-3F1C-40DA-8FF3-D6ED626E09CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CE72F0-3F1C-40DA-8FF3-D6ED626E09CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CE72F0-3F1C-40DA-8FF3-D6ED626E09CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98CE72F0-3F1C-40DA-8FF3-D6ED626E09CD} = {45840834-3E94-452E-B384-2FC12E82ED18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8187F146-5A95-4CD8-BC4D-A1F15DDE2A3A}
